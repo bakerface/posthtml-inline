@@ -1,0 +1,33 @@
+{
+  "name": "posthtml-inline",
+  "version": "1.0.0",
+  "description": "Inline assets via CLI or PostHTML",
+  "author": "Chris Baker <mail.chris.baker@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/bakerface/posthtml-inline#readme",
+  "keywords": [
+    "posthtml",
+    "html",
+    "inline",
+    "asset",
+    "css",
+    "javascript",
+    "script",
+    "style",
+    "link",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/bakerface/posthtml-inline/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakerface/posthtml-inline.git"
+  },
+  "bin": {
+    "posthtml-inline": "cli.js"
+  },
+  "peerDependencies": {
+    "posthtml": "^0.11.3"
+  }
+}
